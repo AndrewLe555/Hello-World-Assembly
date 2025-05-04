@@ -2,6 +2,9 @@
 ; Compile with: nasm -f elf helloworld.asm
 ; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 helloworld.o -o helloworld
 ; Run with: ./helloworld
+
+; Andrew Lentz
+; Class 2:30
  
 SECTION .data
 msg     db      'Hello World!', 0Ah     ; assign msg variable with your message string
